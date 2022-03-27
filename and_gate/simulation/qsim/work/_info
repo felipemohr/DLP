@@ -1,0 +1,127 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/senai/DLP/and_gate/simulation/qsim
+Eand_gate
+Z1 w1648394822
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 3HQPc5MVbmOPN?>a5EBYj2
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 jZ]H46BQLgIP5mfRTO`3B1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ^Ch;U@;bMk1;>A2B<UV`k2
+!i122 16
+R0
+Z9 8and_gate.vho
+Z10 Fand_gate.vho
+l0
+L37 1
+VDVmN6InJ@^Sz>dj6IjT=Y3
+!s100 fZ59K>WTNY1IT5WHJPGJT3
+Z11 OV;C;2020.1;71
+32
+Z12 !s110 1648394823
+!i10b 1
+Z13 !s108 1648394823.000000
+Z14 !s90 -work|work|and_gate.vho|
+Z15 !s107 and_gate.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 8 and_gate 0 22 DVmN6InJ@^Sz>dj6IjT=Y3
+!i122 16
+l65
+L45 80
+VhPl<6o1o9DAn5YTPhWk>o1
+!s100 Sk:9ikO<C@>`lWG>Bj5Q]2
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Eand_gate_vhd_vec_tst
+Z18 w1648394821
+R6
+R7
+!i122 17
+R0
+Z19 8Waveform.vwf.vht
+Z20 FWaveform.vwf.vht
+l0
+L32 1
+VnRgKZ;3nZBW^^7QU]Zz3c1
+!s100 b_P0;MD9ERN3ljf6oNXI12
+R11
+32
+R12
+!i10b 1
+R13
+Z21 !s90 -work|work|Waveform.vwf.vht|
+Z22 !s107 Waveform.vwf.vht|
+!i113 1
+R16
+R17
+Aand_gate_arch
+R6
+R7
+Z23 DEx4 work 20 and_gate_vhd_vec_tst 0 22 nRgKZ;3nZBW^^7QU]Zz3c1
+!i122 17
+l47
+Z24 L34 53
+Z25 VW:o0gc>RELmS8ecj`B9:k1
+Z26 !s100 Wd^MoAe5?nc?Mki5AoMVJ2
+R11
+32
+R12
+!i10b 1
+R13
+R21
+R22
+!i113 1
+R16
+R17
+vand_gate_vlg_vec_tst
+!s110 1648394805
+!i10b 1
+!s100 QNB0gdbgSk7ROV]JT]9Oj2
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I6GZFmGWgl9>>C`<mCbOnJ2
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1648394804
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 15
+L0 30 40
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1648394805.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R16
+tCvgOpt 0

@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, /home/senai/DLP/flipflop_jk/flipflop_jk.vhd
+source_file = 1, /home/senai/intelFPGA_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, /home/senai/intelFPGA_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, /home/senai/intelFPGA_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, /home/senai/intelFPGA_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, /home/senai/DLP/flipflop_jk/db/flipflop_jk.cbx.xml
+design_name = flipflop_jk
+instance = comp, \q~output , q~output, flipflop_jk, 1
+instance = comp, \q_bar~output , q_bar~output, flipflop_jk, 1
+instance = comp, \clk~input , clk~input, flipflop_jk, 1
+instance = comp, \k~input , k~input, flipflop_jk, 1
+instance = comp, \j~input , j~input, flipflop_jk, 1
+instance = comp, \a[2]~1 , a[2]~1, flipflop_jk, 1
+instance = comp, \q~1 , q~1, flipflop_jk, 1
+instance = comp, \q_bar~0 , q_bar~0, flipflop_jk, 1

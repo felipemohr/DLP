@@ -1,0 +1,11 @@
+|flipflop_jk
+j => a.IN1
+k => a.IN0
+clk => a.IN1
+clk => a.IN1
+clk => a[5].IN1
+clk => a[4].IN0
+q << q.DB_MAX_OUTPUT_PORT_TYPE
+q_bar << q_bar.DB_MAX_OUTPUT_PORT_TYPE
+
+

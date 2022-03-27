@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/senai/DLP/flipflop_jk/simulation/qsim
+vflipflop_jk
+Z1 !s110 1648397204
+!i10b 1
+!s100 I1NSZZELf`^g`Ib7FQjdo0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I_Xh:KQzfJO_DE8m57e97R3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1648397203
+8flipflop_jk.vo
+Fflipflop_jk.vo
+!i122 10
+L0 32 167
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1648397204.000000
+!s107 flipflop_jk.vo|
+!s90 -work|work|flipflop_jk.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+Eflipflop_jk_vhd_vec_tst
+Z8 w1648397090
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z11 8Waveform.vwf.vht
+Z12 FWaveform.vwf.vht
+l0
+L32 1
+V6^A;Y:Ukj`2VZ3TLKolkY3
+!s100 WE]WZ?i0R;<HkcQ_jRo^O0
+Z13 OV;C;2020.1;71
+32
+Z14 !s110 1648397092
+!i10b 1
+Z15 !s108 1648397092.000000
+Z16 !s90 -work|work|Waveform.vwf.vht|
+Z17 !s107 Waveform.vwf.vht|
+!i113 1
+R6
+Z18 tExplicit 1 CvgOpt 0
+Aflipflop_jk_arch
+R9
+R10
+DEx4 work 23 flipflop_jk_vhd_vec_tst 0 22 6^A;Y:Ukj`2VZ3TLKolkY3
+!i122 1
+l51
+L34 61
+Vab?YI]b=ifVNLdg3@L6E=3
+!s100 ?hVG=m=9gW5Z5SfL:C^nz0
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R6
+R18
+vflipflop_jk_vlg_vec_tst
+R1
+!i10b 1
+!s100 X7;gYmlHG6eRU4_[?>WL40
+R2
+Ii@=T<LXJAM8oEU?@PUz>h1
+R3
+R0
+w1648397202
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 11
+L0 30 52
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7

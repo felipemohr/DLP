@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/senai/DLP/somador_4bits/simulation/qsim
+vsomador_4bits
+Z1 !s110 1648395680
+!i10b 1
+!s100 T^]edSaH`WFDGba^k>4o61
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IdYFoUoF9zZ7g;UGV]7m>d2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1648395680
+8somador_4bits.vo
+Fsomador_4bits.vo
+!i122 4
+L0 32 284
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1648395680.000000
+!s107 somador_4bits.vo|
+!s90 -work|work|somador_4bits.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+Esomador_4bits_vhd_vec_tst
+Z8 w1648395659
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+R0
+Z11 8Waveform.vwf.vht
+Z12 FWaveform.vwf.vht
+l0
+L32 1
+Vol^L]W]cn7hBKDk>n76P92
+!s100 TT0EK`UB:VnAk=;0>b2]^2
+Z13 OV;C;2020.1;71
+32
+Z14 !s110 1648395661
+!i10b 1
+Z15 !s108 1648395661.000000
+Z16 !s90 -work|work|Waveform.vwf.vht|
+Z17 !s107 Waveform.vwf.vht|
+!i113 1
+R6
+Z18 tExplicit 1 CvgOpt 0
+Asomador_4bits_arch
+R9
+R10
+DEx4 work 25 somador_4bits_vhd_vec_tst 0 22 ol^L]W]cn7hBKDk>n76P92
+!i122 3
+l47
+L34 170
+VEGQFTB7LX670LQXS<[[5c0
+!s100 dHHT3YD]VfKCVeMlhGAQT1
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R6
+R18
+vsomador_4bits_vlg_vec_tst
+R1
+!i10b 1
+!s100 zIZOEHl9HALU5KjfXi4Ha1
+R2
+I2_RKZaNk>abR^do@J>7Ad1
+R3
+R0
+w1648395679
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 5
+L0 30 112
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7

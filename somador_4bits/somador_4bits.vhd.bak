@@ -1,0 +1,14 @@
+
+-- Entidade
+entity somador_4bits is
+	port(
+		A, B : in  integer 0 to 15;
+		C	  : out integer 0 to 15;
+	);
+end somador_4bits;
+
+-- Arquitetura
+architecture main of somador_4bits is
+begin
+	C = A + B;
+end main;
