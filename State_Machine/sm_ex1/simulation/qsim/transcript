@@ -1,0 +1,36 @@
+# do sm_ex1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:32:55 on Apr 27,2022
+# vlog -work work sm_ex1.vo 
+# -- Compiling module sm_ex1
+# ** Warning: sm_ex1.vo(32): (vlog-13233) Design unit "sm_ex1" already exists and will be overwritten. Overwriting a VHDL entity with a Verilog module.
+# 
+# Top level modules:
+# 	sm_ex1
+# End time: 15:32:55 on Apr 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:32:55 on Apr 27,2022
+# vlog -work work Waveform1.vwf.vt 
+# -- Compiling module sm_ex1_vlg_vec_tst
+# 
+# Top level modules:
+# 	sm_ex1_vlg_vec_tst
+# End time: 15:32:56 on Apr 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.sm_ex1_vlg_vec_tst 
+# Start time: 15:32:56 on Apr 27,2022
+# Loading work.sm_ex1_vlg_vec_tst
+# Loading work.sm_ex1
+# Loading cyclonev_ver.cyclonev_io_obuf
+# Loading cyclonev_ver.cyclonev_io_ibuf
+# Loading cyclonev_ver.cyclonev_clkena
+# Loading cyclonev_ver.cyclonev_lcell_comb
+# Loading altera_ver.dffeas
+# Loading altera_ver.PRIM_GDFF_LOW
+# after#26
+# ** Note: $finish    : Waveform1.vwf.vt(47)
+#    Time: 1 us  Iteration: 0  Instance: /sm_ex1_vlg_vec_tst
+# End time: 15:32:56 on Apr 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

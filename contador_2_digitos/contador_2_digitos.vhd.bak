@@ -1,0 +1,52 @@
+library ieee;
+use ieee.std_logic_1164.ALL;
+use ieee.numeric_std.ALL;
+
+ENTITY contador_2_digitos IS
+	port(
+	-- para o somador BCD
+		-- digit_1, digit_2 : IN bit_vector(3 downto 0);
+		
+	-- para o contador
+		clk	: IN std_logic;
+		reset : IN bit;
+		count : OUT integer range 0 to 100
+		
+	);
+END contador_2_digitos;
+
+
+ARCHITECTURE behavior OF contador_2_digitos IS
+BEGIN
+	count_process: process (clk, reset)
+		VARIABLE temp : integer range 0 to 100;
+		--        dezena   unidade
+ 		VARIABLE digit_1, digit_2 : std_logic_vector(3 downto 0);
+	BEGIN
+		if(reset = '1') then
+			digit_1 := "0000";
+			digit_2 := "0000";
+			temp := 0;
+		elsif falling_edge(clk) then
+			-- Quando a unidade chega a 9 ela é zerada e se adiciona 1 a dezena
+			if(digit_2 = "1001") then
+				digit_2 := "0000";
+				digit_1 := std_logic_vector(unsigned(digit_1) + "0001");
+			-- soma 1 a unidade
+			else
+				digit_2 := std_logic_vector(unsigned(digit_2) + "0001");
+			end if;
+			
+			-- converte o bcd para inteiro
+			temp := to_integer(unsigned(digit_1)*10 + unsigned(digit_2));
+			if(temp = 100) then
+				digit_1 := "0000";
+				digit_2 := "0000";
+				temp := 0;
+			end if;
+		end if;
+		
+		count <= temp;
+	END process;
+
+END behavior;

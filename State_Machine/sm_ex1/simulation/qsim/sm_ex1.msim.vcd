@@ -1,0 +1,271 @@
+$comment
+	File created using the following command:
+		vcd file sm_ex1.msim.vcd -direction
+$end
+$date
+	Wed Apr 27 15:32:56 2022
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module sm_ex1_vlg_vec_tst $end
+$var reg 1 ! clk $end
+$var reg 1 " reset $end
+$var wire 1 # count [2] $end
+$var wire 1 $ count [1] $end
+$var wire 1 % count [0] $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 - clk~input_o $end
+$var wire 1 . clk~inputCLKENA0_outclk $end
+$var wire 1 / state.SD~feeder_combout $end
+$var wire 1 0 reset~input_o $end
+$var wire 1 1 state.SD~q $end
+$var wire 1 2 state.SE~feeder_combout $end
+$var wire 1 3 state.SE~q $end
+$var wire 1 4 state.SF~DUPLICATE_q $end
+$var wire 1 5 state.SA~0_combout $end
+$var wire 1 6 state.SA~DUPLICATE_q $end
+$var wire 1 7 state.SB~0_combout $end
+$var wire 1 8 state.SB~q $end
+$var wire 1 9 state.SC~q $end
+$var wire 1 : state.SA~q $end
+$var wire 1 ; WideOr0~combout $end
+$var wire 1 < count[0]~reg0_q $end
+$var wire 1 = count~4_combout $end
+$var wire 1 > count[1]~reg0_q $end
+$var wire 1 ? state.SF~q $end
+$var wire 1 @ state.SE~DUPLICATE_q $end
+$var wire 1 A count~5_combout $end
+$var wire 1 B count[2]~reg0_q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0%
+0$
+0#
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+0-
+0.
+0/
+00
+01
+02
+03
+04
+15
+06
+17
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+$end
+#50000
+1!
+1-
+1.
+1:
+18
+16
+07
+1;
+#100000
+0!
+0-
+0.
+#110000
+1"
+10
+06
+08
+0:
+0;
+17
+#120000
+0"
+00
+#150000
+1!
+1-
+1.
+1:
+18
+16
+07
+1;
+#200000
+0!
+0-
+0.
+#250000
+1!
+1-
+1.
+19
+08
+1<
+1%
+1=
+0;
+1/
+#300000
+0!
+0-
+0.
+#350000
+1!
+1-
+1.
+09
+11
+1>
+0<
+0%
+1$
+12
+1;
+0/
+#400000
+0!
+0-
+0.
+#450000
+1!
+1-
+1.
+1@
+13
+01
+1<
+1%
+0=
+02
+0;
+1A
+#500000
+0!
+0-
+0.
+#550000
+1!
+1-
+1.
+0@
+1?
+14
+03
+1B
+0>
+0<
+0%
+0$
+1#
+1;
+05
+#600000
+0!
+0-
+0.
+#650000
+1!
+1-
+1.
+0?
+0:
+06
+04
+1<
+1%
+15
+17
+0;
+0A
+#700000
+0!
+0-
+0.
+#750000
+1!
+1-
+1.
+1:
+18
+16
+0B
+0<
+0%
+0#
+07
+1;
+#800000
+0!
+0-
+0.
+#850000
+1!
+1-
+1.
+19
+08
+1<
+1%
+1=
+0;
+1/
+#880000
+1"
+10
+06
+09
+0:
+0<
+0%
+0=
+0/
+17
+#890000
+0"
+00
+#900000
+0!
+0-
+0.
+#950000
+1!
+1-
+1.
+1:
+18
+16
+07
+1;
+#1000000

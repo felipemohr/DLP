@@ -1,0 +1,9 @@
+
+State Machine - |sm_ex1|state
+Name state.SF state.SE state.SD state.SC state.SB state.SA 
+state.SA 0 0 0 0 0 0 
+state.SB 0 0 0 0 1 1 
+state.SC 0 0 0 1 0 1 
+state.SD 0 0 1 0 0 1 
+state.SE 0 1 0 0 0 1 
+state.SF 1 0 0 0 0 1 

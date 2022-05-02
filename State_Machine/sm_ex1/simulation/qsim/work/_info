@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/senai/DLP/State_Machine/sm_ex1/simulation/qsim
+vsm_ex1
+!s110 1651084375
+!i10b 1
+!s100 PPkHk9V[AWHJf@l6`=g[90
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:TcEcm]G=h[bEm9SL7>zc1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1651084375
+8sm_ex1.vo
+Fsm_ex1.vo
+!i122 10
+L0 32 556
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1651084375.000000
+!s107 sm_ex1.vo|
+!s90 -work|work|sm_ex1.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+Esm_ex1_vhd_vec_tst
+Z7 w1651084350
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 9
+R0
+Z10 8Waveform1.vwf.vht
+Z11 FWaveform1.vwf.vht
+l0
+L32 1
+VUP]W;aUJGRYT[]l1<dm4i3
+!s100 A<WgR=[h5MnN46Xk:zF1;3
+Z12 OV;C;2020.1;71
+32
+Z13 !s110 1651084352
+!i10b 1
+Z14 !s108 1651084352.000000
+Z15 !s90 -work|work|Waveform1.vwf.vht|
+Z16 !s107 Waveform1.vwf.vht|
+!i113 1
+R5
+Z17 tExplicit 1 CvgOpt 0
+Asm_ex1_arch
+R8
+R9
+DEx4 work 18 sm_ex1_vhd_vec_tst 0 22 UP]W;aUJGRYT[]l1<dm4i3
+!i122 9
+l47
+L34 49
+Vl0^SozHiH<dCicllXS>@[2
+!s100 E0BZ>^o6=R?G]P<PjD^ba2
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R5
+R17
+vsm_ex1_vlg_vec_tst
+!s110 1651084376
+!i10b 1
+!s100 5FAGEj]zX_U@niZk0JVZi0
+R1
+I]S^EUjZLnbDNmYdfAXbW_0
+R2
+R0
+w1651084374
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 11
+L0 30 38
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R5
+R6
