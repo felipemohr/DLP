@@ -10,90 +10,122 @@ z2
 !i10f 100
 cModel Technology
 Z0 d/home/senai/DLP/State_Machine/sm_ex1/simulation/qsim
-vsm_ex1
-!s110 1651084375
-!i10b 1
-!s100 PPkHk9V[AWHJf@l6`=g[90
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I:TcEcm]G=h[bEm9SL7>zc1
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-R0
-w1651084375
-8sm_ex1.vo
-Fsm_ex1.vo
-!i122 10
-L0 32 556
-Z3 OV;L;2020.1;71
-r1
-!s85 0
-31
-Z4 !s108 1651084375.000000
-!s107 sm_ex1.vo|
-!s90 -work|work|sm_ex1.vo|
-!i113 1
-Z5 o-work work
-Z6 tCvgOpt 0
-Esm_ex1_vhd_vec_tst
-Z7 w1651084350
+Esm_ex1
+Z1 w1651639488
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 3HQPc5MVbmOPN?>a5EBYj2
+Z3 DPx8 cyclonev 19 cyclonev_components 0 22 jZ]H46BQLgIP5mfRTO`3B1
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ^Ch;U@;bMk1;>A2B<UV`k2
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
 Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 9
-R0
-Z10 8Waveform1.vwf.vht
-Z11 FWaveform1.vwf.vht
+Z10 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 14
+Z11 d/home/felipe/DLP/State_Machine/sm_ex1/simulation/qsim
+Z12 8sm_ex1.vho
+Z13 Fsm_ex1.vho
+l0
+L39 1
+V1CM>;oBDGjPjeh?jgL<V;3
+!s100 WhQfV6UTLPM3Xha;WTm8U3
+Z14 OV;C;2020.1;71
+32
+Z15 !s110 1651639489
+!i10b 1
+Z16 !s108 1651639489.000000
+Z17 !s90 -work|work|sm_ex1.vho|
+Z18 !s107 sm_ex1.vho|
+!i113 1
+Z19 o-work work
+Z20 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 6 sm_ex1 0 22 1CM>;oBDGjPjeh?jgL<V;3
+!i122 14
+l101
+L55 443
+VBidGK_`SBUV71AFFahnU70
+!s100 FcgJMU<hLFo@F?U?a9`JY0
+R14
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R19
+R20
+Esm_ex1_vhd_vec_tst
+Z21 w1651639486
+R8
+R9
+!i122 15
+R11
+Z22 8Waveform2.vwf.vht
+Z23 FWaveform2.vwf.vht
 l0
 L32 1
 VUP]W;aUJGRYT[]l1<dm4i3
 !s100 A<WgR=[h5MnN46Xk:zF1;3
-Z12 OV;C;2020.1;71
+R14
 32
-Z13 !s110 1651084352
+R15
 !i10b 1
-Z14 !s108 1651084352.000000
-Z15 !s90 -work|work|Waveform1.vwf.vht|
-Z16 !s107 Waveform1.vwf.vht|
+R16
+Z24 !s90 -work|work|Waveform2.vwf.vht|
+Z25 !s107 Waveform2.vwf.vht|
 !i113 1
-R5
-Z17 tExplicit 1 CvgOpt 0
+R19
+R20
 Asm_ex1_arch
 R8
 R9
-DEx4 work 18 sm_ex1_vhd_vec_tst 0 22 UP]W;aUJGRYT[]l1<dm4i3
-!i122 9
+Z26 DEx4 work 18 sm_ex1_vhd_vec_tst 0 22 UP]W;aUJGRYT[]l1<dm4i3
+!i122 15
 l47
-L34 49
-Vl0^SozHiH<dCicllXS>@[2
-!s100 E0BZ>^o6=R?G]P<PjD^ba2
-R12
-32
-R13
-!i10b 1
+Z27 L34 41
+Z28 VFF3`ZD`Tg9ARSUk4@ZYD;2
+Z29 !s100 nOW:Lh1lN=HCS0V;J299k1
 R14
+32
 R15
+!i10b 1
 R16
+R24
+R25
 !i113 1
-R5
-R17
+R19
+R20
 vsm_ex1_vlg_vec_tst
 !s110 1651084376
 !i10b 1
 !s100 5FAGEj]zX_U@niZk0JVZi0
-R1
+!s11b Dg1SIo80bB@j0V0VzS_@n1
 I]S^EUjZLnbDNmYdfAXbW_0
-R2
+VDg1SIo80bB@j0V0VzS_@n1
 R0
 w1651084374
 8Waveform1.vwf.vt
 FWaveform1.vwf.vt
 !i122 11
 L0 30 38
-R3
+OV;L;2020.1;71
 r1
 !s85 0
 31
-R4
+!s108 1651084375.000000
 !s107 Waveform1.vwf.vt|
 !s90 -work|work|Waveform1.vwf.vt|
 !i113 1
-R5
-R6
+R19
+tCvgOpt 0

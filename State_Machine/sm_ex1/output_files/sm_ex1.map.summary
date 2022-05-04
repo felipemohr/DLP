@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Wed Apr 27 15:18:27 2022
+Analysis & Synthesis Status : Successful - Wed May  4 03:10:55 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : sm_ex1
 Top-level Entity Name : sm_ex1
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 9
-Total pins : 5
+Total registers : 0
+Total pins : 3
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

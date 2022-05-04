@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
 
--- DATE "04/27/2022 15:32:31"
+-- DATE "05/04/2022 01:44:48"
 
 -- 
 -- Device: Altera 5CGXFC7C7F23C8 Package FBGA484
@@ -35,13 +35,12 @@ USE ALTERA.ALTERA_PRIMITIVES_COMPONENTS.ALL;
 USE ALTERA_LNSIM.ALTERA_LNSIM_COMPONENTS.ALL;
 USE CYCLONEV.CYCLONEV_COMPONENTS.ALL;
 USE IEEE.STD_LOGIC_1164.ALL;
-USE IEEE.STD_LOGIC_ARITH.ALL;
 
 ENTITY 	sm_ex1 IS
     PORT (
 	clk : IN std_logic;
 	reset : IN std_logic;
-	count : OUT STD.STANDARD.integer range 0 TO 5
+	count : BUFFER std_logic_vector(2 DOWNTO 0)
 	);
 END sm_ex1;
 
@@ -103,7 +102,7 @@ BEGIN
 
 ww_clk <= clk;
 ww_reset <= reset;
-count <= IEEE.STD_LOGIC_ARITH.CONV_INTEGER(UNSIGNED(ww_count));
+count <= ww_count;
 ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
