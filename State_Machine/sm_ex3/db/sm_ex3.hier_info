@@ -1,0 +1,6 @@
+|sm_ex3
+clk => output~reg0.CLK
+clk => state~1.DATAIN
+output <= output~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
