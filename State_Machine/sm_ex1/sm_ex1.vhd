@@ -2,17 +2,17 @@ library ieee;
 use ieee.std_logic_1164.ALL;
 use ieee.numeric_std.ALL;
 
-entity sm_ex1 is
+entity dlp_test is
 	port(
 		clk	: in std_logic;
 		reset	: in std_logic;
-		count : out integer range 0 to 5;
-		digit : out std_logic_vector(0 to 6)
+		state_leds : out std_logic_vector(0 to 5);
+		digit 	  : out std_logic_vector(0 to 6)
 	);
-end sm_ex1;
+end dlp_test;
 
 
-architecture behavior of sm_ex1 is
+architecture behavior of dlp_test is
 
 	type STATE_TYPE is (SA, SB, SC, SD, SE, SF);
 	signal state : STATE_TYPE;
@@ -20,39 +20,38 @@ architecture behavior of sm_ex1 is
 	begin
 	process(clk, reset)
 		begin
-		if reset = '1' then
+		if reset = '0' then
 			state <= SA;
-			count <= 0;
-			digit <= "1111110";
+			state_leds <= "100000";
+			digit <= "0000001";
 			
-		elsif (clk'EVENT AND clk = '1') then
+		elsif (clk'EVENT AND clk = '0') then
 			
 			case state is
-				when SA => 
+				when SA  =>
 					state <= SB;
-					count <= 0;
-					digit <= "1111110";
+					state_leds <= "010000";
+					digit <= "1001111";
 				when SB  =>
 					state <= SC;
-					count <= 1;
-					digit <= "0110000";
+					state_leds <= "001000";
+					digit <= "0010010";
 				when SC  =>
 					state <= SD;
-					count <= 2;
-					digit <= "1101101";
+					state_leds <= "000100";
+					digit <= "0000110";
 				when SD  =>
 					state <= SE;
-					count <= 3;
-					digit <= "1111001";
+					state_leds <= "000010";
+					digit <= "1001100";
 				when SE  =>
 					state <= SF;
-					count <= 4;
-					digit <= "0110011";
-				when SF  =>
+					state_leds <= "000001";
+					digit <= "0100100";
+				when SF  => 
 					state <= SA;
-					count <= 5;
-					digit <= "1011011";
-					
+					state_leds <= "100000";
+					digit <= "0000001";
 			end case;
 					
 		end if;
