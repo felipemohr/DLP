@@ -1,0 +1,89 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "05/09/2022 10:48:02"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          sm_pwm
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module sm_pwm_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [2:0] baud;
+reg clk;
+// wires                                               
+wire output;
+
+// assign statements (if any)                          
+sm_pwm i1 (
+// port map - connection between master ports and signals/registers   
+	.baud(baud),
+	.clk(clk),
+	.\output (output)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+// baud[ 2 ]
+initial
+begin
+	baud[2] = 1'b0;
+	baud[2] = #280000 1'b1;
+	baud[2] = #280000 1'b0;
+	baud[2] = #280000 1'b1;
+end 
+// baud[ 1 ]
+initial
+begin
+	repeat(3)
+	begin
+		baud[1] = 1'b0;
+		baud[1] = #140000 1'b1;
+		# 140000;
+	end
+	baud[1] = 1'b0;
+	baud[1] = #140000 1'b1;
+end 
+// baud[ 0 ]
+initial
+begin
+	repeat(7)
+	begin
+		baud[0] = 1'b0;
+		baud[0] = #70000 1'b1;
+		# 70000;
+	end
+	baud[0] = 1'b0;
+end 
+
+// clk
+always
+begin
+	clk = 1'b0;
+	clk = #5000 1'b1;
+	#5000;
+end 
+endmodule
+

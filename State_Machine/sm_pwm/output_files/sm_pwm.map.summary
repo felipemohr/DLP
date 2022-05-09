@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Mon May  9 10:49:37 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : sm_pwm
+Top-level Entity Name : sm_pwm
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 8
+Total pins : 5
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

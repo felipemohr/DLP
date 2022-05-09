@@ -1,0 +1,27 @@
+|sm_pwm
+clk => output~reg0.CLK
+clk => state~1.DATAIN
+baud[0] => LessThan0.IN6
+baud[0] => LessThan1.IN6
+baud[0] => LessThan2.IN6
+baud[0] => LessThan3.IN6
+baud[0] => LessThan4.IN6
+baud[0] => LessThan5.IN6
+baud[0] => LessThan6.IN6
+baud[1] => LessThan0.IN5
+baud[1] => LessThan1.IN5
+baud[1] => LessThan2.IN5
+baud[1] => LessThan3.IN5
+baud[1] => LessThan4.IN5
+baud[1] => LessThan5.IN5
+baud[1] => LessThan6.IN5
+baud[2] => LessThan0.IN4
+baud[2] => LessThan1.IN4
+baud[2] => LessThan2.IN4
+baud[2] => LessThan3.IN4
+baud[2] => LessThan4.IN4
+baud[2] => LessThan5.IN4
+baud[2] => LessThan6.IN4
+output << output~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
